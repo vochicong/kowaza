@@ -10,7 +10,9 @@ This file will become your README and also the index of your documentation.
 
 ## 使い方
 
-Fill me in please! Don't forget code examples:
+{% raw %}
+$$\sum_{i=1}^{k+1}i$$
+{% endraw %}
 
 ```python
 1+1
