@@ -10,9 +10,9 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: nbdev_trial
+      title: nbdev
       url: /core
     output: web
-    title: nbdev_trial
+    title: kowaza
   output: web
   title: Sidebar
