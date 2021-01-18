@@ -1,6 +1,7 @@
 {
   "kowaza": {
     "Overview": "/",
-    "nbdev": "/core"
+    "nbdev": "/core",
+    "SHAP": "/shap"
   }
 }

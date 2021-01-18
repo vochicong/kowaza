@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: nbdev
       url: /core
+    - output: web,pdf
+      title: SHAP
+      url: /shap
     output: web
     title: kowaza
   output: web
