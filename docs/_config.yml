@@ -1,7 +1,7 @@
-repository: vochicong/nbdev_template
+repository: vochicong/kowaza
 output: web
-topnav_title: nbdev_template
-site_title: nbdev_template
+topnav_title: kowaza
+site_title: kowaza
 company_name: Tre Xanh
 description: Trying nbdev to unify code and doc
 # Set to false to disable KaTeX math
@@ -20,7 +20,7 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
- 
+
 exclude: [vendor]
 
 highlighter: rouge

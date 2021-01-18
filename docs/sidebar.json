@@ -2,6 +2,7 @@
   "kowaza": {
     "Overview": "/",
     "nbdev": "/core",
-    "SHAP": "/shap"
+    "SHAP": "/shap",
+    "Japan info": "/jpinfo"
   }
 }

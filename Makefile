@@ -1,10 +1,10 @@
 SRC = $(wildcard ./*.ipynb)
 
-all: nbdev_template docs
+all: kowaza docs
 
-nbdev_template: $(SRC)
+kowaza: $(SRC)
 	nbdev_build_lib
-	touch nbdev_template
+	touch kowaza
 
 sync:
 	nbdev_update_lib

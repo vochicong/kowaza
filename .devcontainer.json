@@ -1,5 +1,5 @@
 {
-    "name": "nbdev_template-codespaces",
+    "name": "kowaza-codespaces",
     "dockerComposeFile": "docker-compose.yml",
     "service": "watcher",
     "settings": {"terminal.integrated.shell.linux": "/bin/bash"},

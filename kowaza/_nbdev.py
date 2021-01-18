@@ -4,10 +4,16 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"say_hello": "00_core.ipynb",
          "HelloSayer": "00_core.ipynb",
-         "Shap": "01_shap.ipynb"}
+         "Shap": "01_shap.ipynb",
+         "prefectures": "02_jpinfo.ipynb",
+         "prefectures_short_names": "02_jpinfo.ipynb",
+         "prefectures_short2full": "02_jpinfo.ipynb",
+         "prefectures_code2name": "02_jpinfo.ipynb",
+         "prefectures_name2code": "02_jpinfo.ipynb"}
 
 modules = ["core.py",
-           "mli.py"]
+           "mli.py",
+           "jpinfo.py"]
 
 doc_url = "https://vochicong.github.io/kowaza/"
 

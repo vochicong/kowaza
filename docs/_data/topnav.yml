@@ -2,7 +2,7 @@ topnav:
 - title: Topnav
   items:
     - title: github
-      external_url: https://github.com/vochicong/nbdev_template/tree/master/
+      external_url: https://github.com/vochicong/kowaza/tree/master/
 
 #Topnav dropdowns
 topnav_dropdowns:

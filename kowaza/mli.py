@@ -3,8 +3,10 @@
 __all__ = ['Shap']
 
 # Cell
-# from fastcore import store_attr
 from fastcore.basics import store_attr
+import shap
+
+
 class Shap:
     def __init__(self, X, y, model, n_samples=1000):
         store_attr()
@@ -13,14 +15,17 @@ class Shap:
 
         self.samples = samples = X.iloc[:n_samples]
         self.explainer = shap.Explainer(model, samples)
-        self.shap_values = explainer(samples)
+        self.shap_values = self.explainer(samples)
 
     def force_plot(self, n_plots=1):
         plot = shap.force_plot(
-            self.explainer.expected_value, self.shap_values.values[:n_plots], self.samples.iloc[:n_plots], link="logit"
+            self.explainer.expected_value,
+            self.shap_values.values[:n_plots],
+            self.samples.iloc[:n_plots],
+            link="logit",
         )
         return plot
 
-    def waterfall_plot(self, id=0):
+    def waterfall_plot(self, id: int):
         plot = shap.plots.waterfall(self.shap_values[id])
         return plot
