@@ -8,6 +8,7 @@ index = {"say_hello": "00_core.ipynb",
          "prefectures": "02_jpinfo.ipynb",
          "prefectures_short_names": "02_jpinfo.ipynb",
          "prefectures_short2full": "02_jpinfo.ipynb",
+         "prefectures_all_names": "02_jpinfo.ipynb",
          "prefectures_code2name": "02_jpinfo.ipynb",
          "prefectures_name2code": "02_jpinfo.ipynb"}
 
