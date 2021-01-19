@@ -4,6 +4,8 @@ __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
 index = {"say_hello": "00_core.ipynb",
          "HelloSayer": "00_core.ipynb",
+         "logit": "01_shap.ipynb",
+         "expit": "01_shap.ipynb",
          "Shap": "01_shap.ipynb",
          "prefectures": "02_jpinfo.ipynb",
          "prefectures_short_names": "02_jpinfo.ipynb",
