@@ -11,13 +11,13 @@ entries:
       url: /
     - output: web,pdf
       title: nbdev
-      url: /core
+      url: core.html
     - output: web,pdf
       title: SHAP
-      url: /shap
+      url: shap.html
     - output: web,pdf
       title: Japan info
-      url: /jpinfo
+      url: jpinfo.html
     output: web
     title: kowaza
   output: web

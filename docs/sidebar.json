@@ -1,8 +1,8 @@
 {
   "kowaza": {
     "Overview": "/",
-    "nbdev": "/core",
-    "SHAP": "/shap",
-    "Japan info": "/jpinfo"
+    "nbdev": "core.html",
+    "SHAP": "shap.html",
+    "Japan info": "jpinfo.html"
   }
 }

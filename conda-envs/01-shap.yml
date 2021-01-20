@@ -1,0 +1,29 @@
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+  - fastai
+  - plotly
+dependencies:
+  - python=3.8
+  - nbdev
+  - jupyterlab>=3
+  - jupyterlab_code_formatter
+  - flake8
+  - black
+  - isort
+  - pytest
+  - lightgbm
+  - mamba
+  - matplotlib
+  - fastcore
+  - pandas
+  - notebook
+  - ipywidgets>=7.5
+  - ipykernel
+  - plotly
+  - slicer
+  - pip
+  - pip:
+    - shap>=0.38
+    - jupyterlab_vim
