@@ -3,9 +3,11 @@ channels:
   - anaconda
   - conda-forge
   - fastai
+  - numba
   - plotly
 dependencies:
   - python=3.8
+  - fastcore
   - nbdev
   - jupyterlab>=3
   - jupyterlab_code_formatter
@@ -16,7 +18,7 @@ dependencies:
   - lightgbm
   - mamba
   - matplotlib
-  - fastcore
+  - numba
   - pandas
   - notebook
   - ipywidgets>=7.5
@@ -25,5 +27,6 @@ dependencies:
   - slicer
   - pip
   - pip:
-    - shap>=0.38
     - jupyterlab_vim
+    - julia
+    - shap>=0.38

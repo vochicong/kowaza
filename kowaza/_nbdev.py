@@ -19,7 +19,7 @@ modules = ["core.py",
            "mli.py",
            "jpinfo.py"]
 
-doc_url = "https://vochicong.github.io/kowaza/"
+doc_url = "https://vochicong.github.io/kowaza"
 
 git_url = "https://github.com/vochicong/kowaza/tree/master/"
 

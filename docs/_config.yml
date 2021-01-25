@@ -2,8 +2,8 @@ repository: vochicong/kowaza
 output: web
 topnav_title: kowaza
 site_title: kowaza
-company_name: Tre Xanh
-description: Trying nbdev to unify code and doc
+company_name: Tre Xanh LLC
+description: AI/ML development tips
 # Set to false to disable KaTeX math
 use_math: true
 # Add Google analytics id if you have one and want to use it here
@@ -58,7 +58,9 @@ defaults:
 
 sidebars:
 - home_sidebar
-permalink: pretty
 
-theme: jekyll-theme-cayman
-baseurl: /kowaza/
+plugins:
+    - jekyll-remote-theme
+
+remote_theme: fastai/nbdev-jekyll-theme
+baseurl: /kowaza

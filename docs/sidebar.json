@@ -3,6 +3,8 @@
     "Overview": "/",
     "nbdev": "core.html",
     "SHAP": "shap.html",
-    "Japan info": "jpinfo.html"
+    "Japan info": "jpinfo.html",
+    "Python calls Julia": "03-python-call-julia.html",
+    "Julia": "04-julia.html"
   }
 }

@@ -1,4 +1,6 @@
-SRC = $(wildcard ./*.ipynb)
+.ONESHELL:
+SHELL := /bin/bash
+SRC = $(wildcard nbs/*.ipynb)
 
 all: kowaza docs
 
@@ -19,8 +21,11 @@ docs: $(SRC)
 test:
 	nbdev_test_nbs
 
-release: pypi
+release: pypi conda_release
 	nbdev_bump_version
+
+conda_release:
+	fastrelease_conda_package
 
 pypi: dist
 	twine upload --repository pypi dist/*
@@ -30,7 +35,3 @@ dist: clean
 
 clean:
 	rm -rf dist
-
-jupyter:
-	jupyter lab --no-browser  --ip=0.0.0.0 --port=8080 # --NotebookApp.token='' --NotebookApp.password=''
-	# jupyter lab --no-browser --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password=''
