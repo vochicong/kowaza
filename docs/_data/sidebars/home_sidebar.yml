@@ -20,10 +20,7 @@ entries:
       url: jpinfo.html
     - output: web,pdf
       title: Python calls Julia
-      url: 03-python-call-julia.html
-    - output: web,pdf
-      title: Julia
-      url: 04-julia.html
+      url: python-call-julia.html
     output: web
     title: kowaza
   output: web

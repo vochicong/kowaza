@@ -9,8 +9,9 @@ dependencies:
   - python=3.8
   - fastcore
   - nbdev
-  - jupyterlab>=3
+  - jupyterlab=2 # more compatible extensions
   - jupyterlab_code_formatter
+  - jupyter_contrib_nbextensions
   - flake8
   - black
   - isort
@@ -24,9 +25,12 @@ dependencies:
   - ipywidgets>=7.5
   - ipykernel
   - plotly
+  - rise
   - slicer
+  - voila
+  - voila-gridstack
   - pip
   - pip:
-    - jupyterlab_vim
-    - julia
-    - shap>=0.38
+      - jupyterlab_vim
+      - julia
+      - shap>=0.38
