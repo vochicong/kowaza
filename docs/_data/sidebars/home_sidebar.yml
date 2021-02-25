@@ -16,7 +16,7 @@ entries:
       title: SHAP
       url: shap.html
     - output: web,pdf
-      title: Japan info
+      title: Japan prefectures
       url: jpinfo.html
     - output: web,pdf
       title: Python calls Julia

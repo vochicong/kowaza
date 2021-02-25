@@ -9,7 +9,8 @@ dependencies:
   - python=3.8
   - fastcore
   - nbdev
-  - jupyterlab=2 # more compatible extensions
+  - jupyterlab=3
+  # - jupyterlab=2 # more compatible extensions
   - jupyterlab_code_formatter
   - jupyter_contrib_nbextensions
   - flake8

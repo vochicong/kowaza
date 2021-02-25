@@ -7,17 +7,10 @@ index = {"say_hello": "00_core.ipynb",
          "logit": "01_shap.ipynb",
          "expit": "01_shap.ipynb",
          "Shap": "01_shap.ipynb",
-         "Shap.wf_plot": "01_shap.ipynb",
-         "prefectures": "02_jpinfo.ipynb",
-         "prefectures_short_names": "02_jpinfo.ipynb",
-         "prefectures_short2full": "02_jpinfo.ipynb",
-         "prefectures_all_names": "02_jpinfo.ipynb",
-         "prefectures_code2name": "02_jpinfo.ipynb",
-         "prefectures_name2code": "02_jpinfo.ipynb"}
+         "Shap.wf_plot": "01_shap.ipynb"}
 
 modules = ["core.py",
-           "mli.py",
-           "jpinfo.py"]
+           "mli.py"]
 
 doc_url = "https://vochicong.github.io/kowaza"
 
