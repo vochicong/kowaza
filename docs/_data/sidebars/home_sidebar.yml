@@ -21,6 +21,9 @@ entries:
     - output: web,pdf
       title: Python calls Julia
       url: python-call-julia.html
+    - output: web,pdf
+      title: Probability calibration
+      url: 10-proba-calib.html
     output: web
     title: kowaza
   output: web

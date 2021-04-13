@@ -4,6 +4,7 @@
     "nbdev": "core.html",
     "SHAP": "shap.html",
     "Japan prefectures": "jpinfo.html",
-    "Python calls Julia": "python-call-julia.html"
+    "Python calls Julia": "python-call-julia.html",
+    "Probability calibration": "10-proba-calib.html"
   }
 }
