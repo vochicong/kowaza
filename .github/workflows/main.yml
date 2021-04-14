@@ -9,6 +9,10 @@ jobs:
       with:
         python-version: '3.8'
         architecture: 'x64'
+    - uses: julia-actions/setup-julia@v1
+      with:
+        version: 1.5.4
+    - run: julia --version
     - name: Install the library
       run: |
         pip install nbdev jupyter
