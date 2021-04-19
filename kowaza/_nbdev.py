@@ -7,13 +7,16 @@ index = {"say_hello": "00_core.ipynb",
          "logit": "01_shap.ipynb",
          "expit": "01_shap.ipynb",
          "Shap": "01_shap.ipynb",
-         "Shap.wf_plot": "01_shap.ipynb"}
+         "Shap.wf_plot": "01_shap.ipynb",
+         "plot_calibration_curve": "10-proba-calib.ipynb"}
 
 modules = ["core.py",
-           "mli.py"]
+           "mli.py",
+           "proba_calib.py"]
 
 doc_url = "https://vochicong.github.io/kowaza"
 
 git_url = "https://github.com/vochicong/kowaza/tree/master/"
 
-def custom_doc_links(name): return None
+def custom_doc_links(name):
+    return None

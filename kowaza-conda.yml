@@ -1,0 +1,30 @@
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+  - fastai
+  - numba
+  - plotly
+dependencies:
+  - python>=3.8.6
+  - nbdev
+  - ipython==7.10 # https://github.com/ipython/ipykernel/issues/540
+  - ipykernel>=5.5.3
+  - jupyterlab
+  - jupyterlab_code_formatter
+  - jupyter_contrib_nbextensions
+  - flake8
+  - black
+  - isort
+  - lightgbm
+  - pytest
+  - matplotlib
+  - notebook
+  - pandas
+  - scikit-learn
+  - scipy
+  - ipywidgets>=7.5
+  - ipykernel
+  - pip
+  - pip:
+      - jupyterlab_vim
