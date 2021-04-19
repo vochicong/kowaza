@@ -16,13 +16,14 @@ dependencies:
   - flake8
   - black
   - isort
-  - lightgbm
-  - pytest
-  - matplotlib
+  # - lightgbm
+  # - pytest
+  # - matplotlib
   - notebook
-  - pandas
-  - scikit-learn
-  - scipy
+  # - numpy
+  # - pandas
+  # - scikit-learn
+  # - scipy
   - ipywidgets>=7.5
   - ipykernel
   - pip
