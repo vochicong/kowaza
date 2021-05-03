@@ -8,8 +8,8 @@ channels:
 dependencies:
   - python>=3.8.6
   - nbdev
-  - ipython==7.10 # https://github.com/ipython/ipykernel/issues/540
-  - ipykernel>=5.5.3
+  # - ipython==7.10 # https://github.com/ipython/ipykernel/issues/540
+  # - ipykernel>=5.5.3
   - jupyterlab
   - jupyterlab_code_formatter
   - jupyter_contrib_nbextensions
@@ -29,3 +29,5 @@ dependencies:
   - pip
   - pip:
       - jupyterlab_vim
+      - ipykernel>=6.0.0a5
+      - ipython==7.21.0 # https://github.com/ipython/ipykernel/issues/540
