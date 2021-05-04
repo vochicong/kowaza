@@ -31,6 +31,18 @@ nb_path: "nbs/15-autogluon.ipynb"
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#30906;&#29575;&#35036;&#27491;&#12395;&#24517;&#35201;&#12394;sklearn-API&#12398;&#21462;&#12426;&#20184;&#12369;">&#30906;&#29575;&#35036;&#27491;&#12395;&#24517;&#35201;&#12394;sklearn API&#12398;&#21462;&#12426;&#20184;&#12369;<a class="anchor-link" href="#&#30906;&#29575;&#35036;&#27491;&#12395;&#24517;&#35201;&#12394;sklearn-API&#12398;&#21462;&#12426;&#20184;&#12369;"> </a></h1><p>本連載では分類モデルの予測値を信頼性曲線にプロットしたり、
+クラス確率に近づける確率補正について取り上げています。
+前回、sklearn APIが元々備わっていたLightGBMモデルを対象にしましたが、
+今回は、<a href="https://pypi.org/project/autogluon.tabular/">AutoGluon Tabular</a> という AutoML を対象に、
+確率補正に必要なAPIメソッドを取り付ける
+具体例をご紹介します。</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#12521;&#12452;&#12502;&#12521;&#12522;&#12398;&#29992;&#24847;">&#12521;&#12452;&#12502;&#12521;&#12522;&#12398;&#29992;&#24847;<a class="anchor-link" href="#&#12521;&#12452;&#12502;&#12521;&#12522;&#12398;&#29992;&#24847;"> </a></h2><p>sklearn を使って信頼性曲線を書いたり確率補正します。
 図形は Matplotlib と Plotly で作ります。
 補正対象のモデルとしては 
